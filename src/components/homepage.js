@@ -5,11 +5,11 @@ import Nav from "./nav"
 
 function Home() {
     return (
-        <Parallax className='bgImage' bgImage={FrontRest} strength={800}>
+        <Parallax className='bgImage' bgImage={FrontRest} strength={900}>
             <Nav />
             <div className='contentHome'>
 
-                <h1>Welcome To my resturant</h1>
+                <p>Resturant Name Goes Here</p>
 
             </div>
         </Parallax>
