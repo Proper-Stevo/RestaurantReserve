@@ -8,8 +8,11 @@ function Home() {
         <Parallax className='bgImage' bgImage={FrontRest} strength={900}>
             <Nav />
             <div className='contentHome'>
-
-                <p>Resturant Name Goes Here</p>
+                <h1 className="ResTitle">Resturant Name Goes Here</h1> 
+                <br />
+                <div>
+                    
+                </div>
 
             </div>
         </Parallax>
