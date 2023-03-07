@@ -1,8 +1,6 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import TwoRant from '../img/nvbg.png';
-import Selfie from "../img/selfie.jpeg";
 
 const navigation = [
   { name: 'Menu', href: '#', current: true },
@@ -17,7 +15,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-transparent">
+    <Disclosure as="nav" className="bg-blue-500">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -37,8 +35,8 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                    <img
-                    className="block h-8 w-auto lg:hidden"
-                    src={TwoRant}
+                    className="block h-8 w-auto"
+                    src="/images/nvbg.png"
                     alt="Your Company"
                   />
                 </div>
@@ -67,7 +65,7 @@ export default function Example() {
                       <span className="sr-only">Open user menu</span>
                        <img
                         className="h-9 w-9 rounded-full"
-                        src={Selfie}
+                        src="/images/selfie.jpeg"
                         alt=""
                       /> 
                     </Menu.Button>
