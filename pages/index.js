@@ -9,7 +9,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <Parallax className='bgImage' bgImage="/images/FrontRes.jpg" strength={900}>
-            <div className='contentHome text-center' id="home">
+            <div className='contentHome text-center text-white' id="home">
                 <span>
                     <h1 className="ResTitle">Resturant Name Goes Here</h1>
                     <p>Los Angeles Best New Resturant</p>
