@@ -32,11 +32,19 @@ img {
 
 .bgImage {
   position: relative;
-  height: 300vh;
+  background-position: top;
+  height: 262vh;
 }
 
 .contentHome {
   display: flex;
   height: 100vh;
   width: 100%;
+}
+
+
+@media only screen and (min-width:200px) and (max-width:1481px) {
+  .bgImage {
+    height: 210vh;
+  }
 }
