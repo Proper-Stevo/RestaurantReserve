@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import { Parallax } from 'react-parallax';
 import Info from '../components/infoSection';
+import Bar from '../components/bar';
+import Story from '../components/backStory';
 
 export default function Home() {
   return (
@@ -13,13 +15,16 @@ export default function Home() {
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div class="hidden sm:mb-8 sm:flex sm:justify-center">
           </div>
-          <div class="text-center">
-            <h1 class="stick top-50 text-4xl font-bold tracking-tight text-white sm:text-6xl">South Central, With Love.</h1>
+          <div class="overflow-auto text-center">
+            <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">South Central, With Love.</h1>
             <p class="mt-6 text-lg leading-8 text-white">Los Angeles Cuisine, from the heart of California.</p>
           </div>
         </div>
       </Parallax>
       <Info />
+      <Bar /> 
+      <Story />
     </Layout>
+   
   )
 }

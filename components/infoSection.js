@@ -3,14 +3,14 @@ import React from "react";
 function Info() {
     return (
         <>
-            <div className="grid grid-cols-3 gap-4 bg-[#e6d7d6] text-brown text-center">
+            <div className="grid grid-cols-3 gap-4 bg-[#e6d7d6] text-brown text-center pb-5">
                 <div>
                     <br />
                 <img className="mx-auto" src="/images/addy.png" />
                    <b> Address:</b>
                     <p>
-                        1992 <br />
-                        Santa Monica, <br />
+                        123 Fake Street <br />
+                        Hollywood, <br />
                         California 
                     </p>
                 </div>
