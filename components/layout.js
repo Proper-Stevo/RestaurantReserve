@@ -27,6 +27,20 @@ export default function Layout({ children, home }) {
         <Nav />
       </header>
       <main>{children}</main>
+      <footer className="bg-black text-center pt-2 pb-6">
+        <div>
+          <a className="text-white inline-flex" href="">
+            <p className="pl-2">Proper-Stevo &copy; 2023</p>
+          </a>
+        </div>
+
+        <a
+          className="text-white inline-flex hover:no-underline"
+          href="https://github.com/proper-stevo"
+        >
+          <p>designed by : </p>
+        </a>
+      </footer>
     </div>
   )
 }

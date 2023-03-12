@@ -35,6 +35,11 @@ img {
   background-position: top;
   height: 262vh;
 }
+.bgImage2 {
+  position: relative;
+  background-position: top;
+  height: 197vh;
+}
 
 .contentHome {
   display: flex;
