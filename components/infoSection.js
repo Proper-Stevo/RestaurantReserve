@@ -3,7 +3,7 @@ import React from "react";
 function Info() {
     return (
         <>
-            <div className="grid grid-cols-3 gap-4 bg-[#e6d7d6] text-brown text-center pb-5">
+            <div className="grid grid-cols-3 gap-4 bg-[#e6d7d6] text-brown text-center py-20">
                 <div>
                     <br />
                 <img className="mx-auto" src="/images/addy.png" />
