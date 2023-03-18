@@ -9,7 +9,6 @@ function menu() {
                 <title>{siteTitle}</title>
             </Head>
             <div>
-                {/* <!-- component --> */}
                 <div className="px-3 md:lg:xl:px-40 border-t border-b py-20 bg-opacity-10" >
                     <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white shadow-xl shadow-neutral-100 border ">
                         <div
