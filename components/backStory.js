@@ -1,9 +1,11 @@
 import React from "react";
+import { Parallax } from "react-parallax";
 
 
 function Story() {
   return (
-    <div className="overflow-hidden bg-[#e6d7d6] py-20 sm:py-30">
+    <Parallax className="tacos4" bgImage="/images/tacos.png">
+      <div className="overflow-hidden py-20 sm:py-30">
       <div className="mx-auto max-w-4xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -40,7 +42,8 @@ function Story() {
           <img src="/images/tacos.jpg" alt="Product screenshot" class="w-[100%] rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-3 lg:-ml-0" />
         </div>
       </div>
-    </div>
+      </div>
+    </Parallax>
   )
 }
 
