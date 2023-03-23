@@ -195,7 +195,7 @@ export default function Layout({ children, home }) {
       </Disclosure>
     </>
       </header>
-      <main>{children}</main>
+      <main className='bg-blue-300'>{children}</main>
       <footer className="bg-[#e6d7d6] text-center pt-2 pb-6">
         <div>
           <a className="text-black inline-flex" href="">
