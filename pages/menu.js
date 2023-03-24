@@ -11,8 +11,8 @@ function menu() {
             </Head>
             <Parallax bgImage="/images/border.png" className="container mx-auto">
             <section className="pt-20">
-                <div className="container">
-                    <h1 className="text-center text-xl">Menu Specials</h1>
+                <div className="container py-20">
+                    <h1 className=" text-center text-2xl">Menu Specials</h1>
                     <div className=" py-20 columns-1 md:columns-4 sm:columns-2">
                         <div class="flex justify-center">
                             <div class="block w-64 rounded-lg bg-white shadow-lg dark:bg-neutral-700">
