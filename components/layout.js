@@ -16,7 +16,7 @@ function classNames(...classes) {
 }
 
 const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'South Central With Love'
 
 export default function Layout({ children, home }) {
   return (
@@ -90,7 +90,7 @@ export default function Layout({ children, home }) {
                             <a href='/'>
                               <img
                                 className="block h-8 w-auto"
-                                src="/images/re2rant.png"
+                                src="/images/nvbg.png"
                                 alt="Your Company"
                               /></a>
                           </div>
@@ -101,7 +101,7 @@ export default function Layout({ children, home }) {
                              key={item.name}
                              href={item.href}
                              className={classNames(
-                               'text-black hover:bg-gray-500 hover:text-white',
+                               'text-white hover:bg-gray-500 hover:text-white',
                                'rounded-md px-3 py-2 text-sm font-medium'
                              )}
                              aria-current={item.current ? 'page' : undefined}
@@ -195,7 +195,7 @@ export default function Layout({ children, home }) {
       </Disclosure>
     </>
       </header>
-      <main className='bg-blue-300'>{children}</main>
+      <main className='bg-gray-600'>{children}</main>
       <footer className="bg-[#e6d7d6] text-center pt-2 pb-6">
         <div>
           <a className="text-black inline-flex" href="">

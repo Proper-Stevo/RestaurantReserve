@@ -32,6 +32,17 @@ body {
   height: 100vh;
 }
 
+.menuImg {
+  position: relative;
+  background-position: top;
+  height: 300vh;
+}
+
+.oldF {
+  position: relative;
+  background-position: top;
+  height: 100vh;
+}
 
 @media only screen and (min-width:200px) and (max-width:1481px) {
   .bgImage {
