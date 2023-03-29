@@ -4,6 +4,7 @@ import Layout, { siteTitle } from "../components/layout";
 import { Parallax } from "react-parallax";
 import HappyHr from "../components/happyhour";
 import NextSection from "../components/happyh2";
+import MainMenu from "../components/menuPage";
 
 
 function menu() {
@@ -12,17 +13,18 @@ function menu() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <Parallax className="menuImg" bgImage="/images/burger.jpg" strength={900}>
+            <Parallax className="menuImg" bgImage="/images/steak.jpg" strength={900}>
                 <section className="pt-20">
-                    <div className="container py-20">
-                        <h1 className=" text-center text-white text-2xl">Menu Specials</h1>
+                    <div className="relative py-20">
+                        <div className="text-center text-9xl font-bold tracking-tight text-white sm:text-10xl">Menu Specials</div>
                     </div>
                 </section>
             </Parallax>
             <HappyHr />
             <NextSection />
+            <MainMenu />
         </Layout>
-    )
+    );
 }
 
 export default menu;
