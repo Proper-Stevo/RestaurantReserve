@@ -1,44 +1,52 @@
-{
-    "happyhour": [
+[
         {
             "title": "Calimari",
-            "description": "Our calamari is thinly sliced squid, coated in seasoned flour and fried to crispy perfection. Served with marinara sauce and lemon wedges, it's the perfect happy hour snack to pair with your favorite cocktail."
+            "description": "Our calamari is thinly sliced squid, coated in seasoned flour and fried to crispy perfection. Served with marinara sauce and lemon wedges, it's the perfect happy hour snack to pair with your favorite cocktail.",
+            "image": "/images/calimari.jpg"
         },
         {
             "title": "Nachos",
-            "description": "Our nachos feature crispy tortilla chips topped with melted cheese, jalapenos, diced tomatoes, and green onions. Served with a side of fresh salsa and sour cream, they're the ultimate happy hour appetizer for sharing with friends."
+            "description": "Our nachos feature crispy tortilla chips topped with melted cheese, jalapenos, diced tomatoes, and green onions. Served with a side of fresh salsa and sour cream, they're the ultimate happy hour appetizer for sharing with friends.",
+            "image": "/images/nachos.jpg"
         },
         {
             "title": "Tacos",
-            "description": "Our tacos are made with your choice of protein, including seasoned ground beef, tender chicken, or spicy shrimp. Served on warm tortillas with fresh cilantro, diced onions, and zesty lime wedges, they're the perfect addition to any happy hour celebration."
+            "description": "Our tacos are made with your choice of protein, including seasoned ground beef, tender chicken, or spicy shrimp. Served on warm tortillas with fresh cilantro, diced onions, and zesty lime wedges, they're the perfect addition to any happy hour celebration.",
+            "image": "/images/tacos.jpg"
         },
         {
             "title": "Fries",
-            "description": "Our fries are crispy and golden brown, perfectly salted and served with a side of tangy ketchup or creamy garlic aioli. They're the classic happy hour snack that never goes out of style."
+            "description": "Our fries are crispy and golden brown, perfectly salted and served with a side of tangy ketchup or creamy garlic aioli. They're the classic happy hour snack that never goes out of style.",
+            "image": "/images/fries.jpg"
         },
         {
             "title": "Gauc n' Chips",
-            "description": "Our guacamole is made fresh with ripe avocados, diced tomatoes, onions, and cilantro, and served with a side of crispy tortilla chips. It's the perfect happy hour snack to enjoy with a cold drink and good company.            "
+            "description": "Our guacamole is made fresh with ripe avocados, diced tomatoes, onions, and cilantro, and served with a side of crispy tortilla chips. It's the perfect happy hour snack to enjoy with a cold drink and good company.",
+            "image": "/images/guacnchips.jpeg"
         },
         {
             "title": "Mozzarrella Sticks",
-            "description": "Our mozzarella sticks are made with gooey melted cheese coated in crispy breadcrumbs, served with a side of warm marinara sauce for dipping. They're the ultimate comfort food snack that everyone will love during happy hour."
+            "description": "Our mozzarella sticks are made with gooey melted cheese coated in crispy breadcrumbs, served with a side of warm marinara sauce for dipping. They're the ultimate comfort food snack that everyone will love during happy hour.",
+            "image": "/images/mozzerrella.webp"
         },
         {
             "title": "Onion Rings",
-            "description": "Our onion rings are thickly cut and battered with a crispy, golden coating, served with a side of zesty dipping sauce. They're the perfect shareable snack for any happy hour gathering."
+            "description": "Our onion rings are thickly cut and battered with a crispy, golden coating, served with a side of zesty dipping sauce. They're the perfect shareable snack for any happy hour gathering.",
+            "image": "/images/rings.jpg"
         },
         {
             "title": "Wings",
-            "description": "Our wings are crispy and spicy, coated in your choice of BBQ, buffalo, or garlic parmesan sauce, served with a side of cool ranch or blue cheese dressing. They're the classic happy hour snack that pairs perfectly with an ice-cold beer."
+            "description": "Our wings are crispy and spicy, coated in your choice of BBQ, buffalo, or garlic parmesan sauce, served with a side of cool ranch or blue cheese dressing. They're the classic happy hour snack that pairs perfectly with an ice-cold beer.",
+            "image": "/images/wings.jpg"
         },
         {
             "title": "Loaded Potatoes",
-            "description": "Our loaded potatoes are baked to perfection, topped with melted cheese, crispy bacon bits, and diced green onions, served with a side of sour cream. They're the ultimate comfort food snack that will satisfy any cravings during happy hour."
+            "description": "Our loaded potatoes are baked to perfection, topped with melted cheese, crispy bacon bits, and diced green onions, served with a side of sour cream. They're the ultimate comfort food snack that will satisfy any cravings during happy hour.",
+            "image": "/images/loadedpos.jpeg"
         },
         {
             "title": "Artichoke Dip",
-            "description": "Our artichoke dip is made with creamy melted cheese, tender artichoke hearts, and savory spices, served with a side of warm pita bread or crispy tortilla chips. It's the perfect shareable appetizer for any happy hour gathering."
+            "description": "Our artichoke dip is made with creamy melted cheese, tender artichoke hearts, and savory spices, served with a side of warm pita bread or crispy tortilla chips. It's the perfect shareable appetizer for any happy hour gathering.",
+            "image": "/images/artichokedip.jpeg"
         }
-    ]
-}
+]
