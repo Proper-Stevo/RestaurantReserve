@@ -38,5 +38,10 @@
         "title": "House Pasta",
         "description": "",
         "image": "/images/pastaDish.webp"
+    },
+    {
+        "title": "Chicken Parmesan",
+        "description": "",
+        "image": "/images/chickenParm.jpeg"
     }
 ]
