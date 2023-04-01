@@ -19,11 +19,11 @@ function MainMenu() {
 
     return (
         <div className="text-center">
-            <h1 className="text-center text-white pt-5 text-5xl">Food Section</h1>
-            <label for="Toggle3" className="inline-flex items-center p-2 rounded-md cursor-pointer dark:text-gray-800 bg-white">
-                <input id="Toggle3" type="checkbox" className="hidden peer" />
-                    <span className="px-4 py-2 rounded-l-md dark:bg-blue-400 peer-checked:dark:bg-gray-300">Food</span>
-                    <span className="px-4 py-2 rounded-r-md dark:bg-gray-300 peer-checked:dark:bg-blue-400">Drinks</span>
+            <h1 className=" text-white pt-5 text-5xl">Entree | Drinks</h1>
+            <label for="Toggle3" className="inline-flex items-center p-5 pl-4 rounded-md cursor-pointer text-gray-800">
+                <input id="Toggle3" type="checkbox" className="hidden peer"/>
+                <span className="px-4 py-2 rounded-l-md bg-gray-200 peer-checked:bg-blue-300">Entree</span>
+                <span className="px-4 py-2 rounded-r-md bg-blue-200 peer-checked:bg-gray-300">Drinks</span>
             </label>
             <div class="grid grid-cols-3 gap-4 text-brown text-center py-20">
                 {displayMenu}
