@@ -17,16 +17,16 @@ function HappyHr() {
             </div>
         )
     }
-        )
+    )
 
-return (
-    <>
-        <h1 className="text-center text-white pt-8 text-5xl">Happy Hour Section</h1>
-        <div className="grid grid-cols-3 gap-4 text-brown text-center py-20">
-        {displayFood}
-        </div>
-    </>
-)
+    return (
+        <>
+            <h1 className="text-center text-white pt-8 text-5xl">Happy Hour Section</h1>
+            <div className="grid grid-cols-3 gap-4 text-brown text-center py-20">
+                {displayFood}
+            </div>
+        </>
+    )
 }
 
 export default HappyHr;

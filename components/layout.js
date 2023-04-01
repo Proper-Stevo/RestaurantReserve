@@ -138,7 +138,7 @@ export default function Layout({ children, home }) {
                         <Menu.Item>
                           {({ active }) => (
                             <a
-                              href="www.github.com/proper-stevo"
+                              href="https://stevenb-resume.herokuapp.com/"
                               className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                             >
                               My Profile
@@ -148,7 +148,7 @@ export default function Layout({ children, home }) {
                         <Menu.Item>
                           {({ active }) => (
                             <a
-                              href="www.github.com/proper-stevo"
+                              href="https://www.github.com/proper-stevo"
                               className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                             >
                               GitHub
@@ -158,7 +158,7 @@ export default function Layout({ children, home }) {
                         <Menu.Item>
                           {({ active }) => (
                             <a
-                              href="www.google.com"
+                              href="https://drive.google.com/uc?export=download&id=1JrhtyO84DgJlitbMiBpPGF18DjSzJVDM"
                               className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                             >
                               Resume

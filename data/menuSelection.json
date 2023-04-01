@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Cheese Burger",
+        "description": "",
+        "image": "/images/cheeseburger.jpg"
+    },
+    {
+        "title": "Pizza",
+        "description": "",
+        "image": "/images/pizza.jpg"
+    },
+    {
+        "title": "Ribeye Steak",
+        "description": "",
+        "image": "/images/ribeye.jpg"
+    },
+    {
+        "title": "Filet Mignon",
+        "description": "",
+        "image": "/images/filetmignon.jpg"
+    },
+    {
+        "title": "Jambalay",
+        "description": "",
+        "image": "/images/jambalaya.jpeg"
+    },
+    {
+        "title": "Cobb Salad",
+        "description": "",
+        "image": "/images/cobb.jpg"
+    },
+    {
+        "title": "Salmon",
+        "description": "",
+        "image": "/images/salmon.jpeg"
+    },
+    {
+        "title": "House Pasta",
+        "description": "",
+        "image": "/images/pastaDish.webp"
+    }
+]
