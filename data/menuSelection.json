@@ -1,47 +1,47 @@
 [
     {
         "title": "Cheese Burger",
-        "description": "",
+        "description": "Our cheeseburger is made with a juicy beef patty cooked to perfection, topped with melted cheese, crispy bacon, fresh lettuce, and ripe tomato, served on a toasted bun with a side of golden fries. It's the classic American entree that never goes out of style.",
         "image": "/images/cheeseburger.jpg"
     },
     {
         "title": "Pizza",
-        "description": "",
+        "description": "Our pizza is made with a crispy, thin crust and topped with your choice of savory meats, fresh vegetables, and melted mozzarella cheese. It's the perfect entree to share with friends and family, or to enjoy as a satisfying meal on your own.",
         "image": "/images/pizza.jpg"
     },
     {
         "title": "Ribeye Steak",
-        "description": "",
+        "description": "Our ribeye steak is a tender and juicy cut of meat, cooked to your desired temperature and served with a side of sautéed vegetables and creamy mashed potatoes. It's the perfect entree for any meat lover looking for a satisfying and hearty meal.",
         "image": "/images/ribeye.jpg"
     },
     {
         "title": "Filet Mignon",
-        "description": "",
+        "description": "Our filet mignon is a tender and flavorful cut of beef, cooked to perfection and served with a side of roasted root vegetables and creamy mashed potatoes. It's the ultimate indulgent entree for any special occasion or romantic dinner for two.",
         "image": "/images/filetmignon.jpg"
     },
     {
         "title": "Jambalay",
-        "description": "",
+        "description": "Our filet jambalaya is a spicy and flavorful Cajun dish, made with tender chunks of filet mignon, spicy sausage, and a medley of vegetables, all cooked together in a rich tomato-based sauce and served over a bed of fluffy rice. It's a hearty and satisfying entree that will transport your taste buds straight to Louisiana.",
         "image": "/images/jambalaya.jpeg"
     },
     {
         "title": "Cobb Salad",
-        "description": "",
+        "description": "Our filet cobb salad features tender slices of filet mignon, crisp bacon bits, hard-boiled eggs, and creamy avocado, all served over a bed of fresh greens and drizzled with a tangy vinaigrette dressing. It's a satisfying and flavorful entree that's both healthy and indulgent.",
         "image": "/images/cobb.jpg"
     },
     {
         "title": "Salmon",
-        "description": "",
+        "description": "Our filet salmon is a fresh and healthy entree, grilled to perfection and served with a side of roasted vegetables and fluffy quinoa. It's the perfect choice for anyone looking for a light and flavorful meal.",
         "image": "/images/salmon.jpeg"
     },
     {
         "title": "House Pasta",
-        "description": "",
+        "description": "ur house pasta is a classic and hearty dish, featuring perfectly cooked pasta tossed with a rich and savory tomato-based sauce, seasoned with aromatic herbs and spices, and topped with freshly grated Parmesan cheese. It's the perfect entree to enjoy on its own or paired with a side salad or garlic bread.",
         "image": "/images/pastaDish.webp"
     },
     {
         "title": "Chicken Parmesan",
-        "description": "",
+        "description": "Our chicken parmesan is a classic Italian dish, featuring tender and crispy breaded chicken topped with melted mozzarella cheese and a rich tomato sauce, served over a bed of perfectly cooked spaghetti. It's the ultimate comfort food entree that's sure to please everyone.",
         "image": "/images/chickenParm.jpeg"
     }
 ]

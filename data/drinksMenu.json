@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Margarita",
+        "description": "The Margarita is a classic and popular cocktail that's made with tequila, lime juice, and triple sec, and is served with a salt rim. It's a refreshing and tangy drink that's perfect for sipping on a hot summer day or for enjoying alongside Mexican cuisine.",
+        "image": "/images/spicyMarg.jpg"
+    },
+    {
+        "title": "Paloma",
+        "description": "The Paloma is a refreshing and easy-to-make cocktail that's popular in Mexico. It's made with tequila, grapefruit soda, and lime juice, and is garnished with a salt rim and a wedge of fresh lime, giving it a tangy and slightly sweet flavor.",
+        "image": "/images/paloma.jpg"
+    },
+    {
+        "title": "Beer",
+        "description": "Please ask the waiter/waitress to provdie a full list of tap/bottled beer. Promotional and seasonal beer will also be included. As well as beer flights. ",
+        "image": "/images/beer.jpg"
+    },
+    {
+        "title": "Wine",
+        "description": "Wine is an alcoholic beverage made from fermented grapes or other fruits. It comes in a variety of styles, including red, white, and rosé, and is typically served with meals or enjoyed as a standalone drink.",
+        "image": "/images/wine.jpg"
+    },
+    {
+        "title": "Long Island Iced Tea",
+        "description": "The Long Island Iced Tea is a potent and refreshing cocktail that's made with vodka, tequila, rum, gin, triple sec, lemon juice, and cola. Its unique blend of spirits and citrus creates a smooth and flavorful drink that's perfect for those who like their cocktails on the stronger side.",
+        "image": "/images/litea.webp"
+    },
+    {
+        "title": "Moscow Mule",
+        "description": "The Moscow Mule is a vodka-based cocktail that's served in a copper mug, giving it a distinct and eye-catching appearance. Its simple yet delicious recipe includes ginger beer, lime juice, and vodka, making it a refreshing and flavorful choice for any occasion.",
+        "image": "/images/moscow.jpg"
+    },
+    {
+        "title": "Mojito",
+        "description": "The Mojito is a classic Cuban cocktail that has gained popularity worldwide. It's made with rum, lime juice, sugar, mint leaves, and soda water, and its sweet and refreshing flavor makes it a perfect choice for a hot summer day.",
+        "image": "/images/mojito.jpg"
+    },
+    {
+        "title": "Sangria",
+        "description": "Sangria is a refreshing and fruity wine-based cocktail that originated in Spain. It's made with red or white wine, fresh fruits, juices, and a splash of brandy, and is perfect for sipping on warm summer evenings or for sharing with friends over a delicious meal.",
+        "image": "/images/sangria.jpg"
+    },
+    {
+        "title": "Old Fashioned",
+        "description": "The Old Fashioned is a timeless and iconic cocktail that features a smooth blend of bourbon or rye whiskey, muddled sugar, bitters, and a citrus twist. It's a perfect choice for those who appreciate classic cocktails and enjoy a sophisticated and flavorful drink.",
+        "image": "/images/oldfashioned.jpg"
+    }
+]
