@@ -5,36 +5,8 @@ import drinksMenu from "../data/drinksMenu.json"
 function MainMenu() {
     const [isFood, setisFood] = useState(true);
 
-    // const DisplayDrinks = drinksMenu.map((d, index) => {
-    //     return (
-    //         <div class="w-80 mt-24 m-auto lg:mt-16 max-w-sm">
-    //             <img src={d.image} alt="" class="rounded-t-2xl shadow-2xl lg:w-full 2xl:w-full 2xl:h-44 object-cover" />
-    //             <div class="bg-white shadow-2xl rounded-b-3xl">
-    //                 <h2 class="text-center text-gray-800 text-2xl font-bold pt-6">{d.title}</h2>
-    //                 <div class="w-5/6 m-auto">
-    //                     <p class="text-center text-gray-500 pt-5 pb-4">{d.description}</p>
-    //                 </div>
-    //             </div>
-    //         </div>
-    //     )
-    // })
-
     const displayDrinks = [drinksMenu];
     const displayMenu = [foodMenu];
-
-    // const displayMenu = foodMenu.map((m, index) => {
-    //     return (
-    //         <div class="w-80 mt-24 m-auto lg:mt-16 max-w-sm">
-    //             <img src={m.image} alt="" class="rounded-t-2xl shadow-2xl lg:w-full 2xl:w-full 2xl:h-44 object-cover" />
-    //             <div class="bg-white shadow-2xl rounded-b-3xl">
-    //                 <h2 class="text-center text-gray-800 text-2xl font-bold pt-6">{m.title}</h2>
-    //                 <div class="w-5/6 m-auto">
-    //                     <p class="text-center text-gray-500 pt-5 pb-4">{m.description}</p>
-    //                 </div>
-    //             </div>
-    //         </div>
-    //     )
-    // })
 
     const handleClick = () => {
         setisFood(!isFood);
