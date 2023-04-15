@@ -11,7 +11,7 @@ function reservations() {
             <div className="py-32">
             <div class="flex items-center justify-center p-12">
                 <div class="mx-auto w-full max-w-[550px]">
-                    <form action="https://formbold.com/s/FORM_ID" method="POST">
+                    <form action="" method="POST">
                         <div class="-mx-3 flex flex-wrap">
                             <div class="w-full px-3 sm:w-1/2">
                                 <div class="mb-5">
@@ -107,10 +107,10 @@ function reservations() {
                                 Email?
                             </label>
                             <input
-                                type="number"
+                                type="text"
                                 name="guest"
                                 id="guest"
-                                placeholder="0"
+                                placeholder="Email@email.com"
                                 min="0"
                                 class="w-full appearance-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
                             />
