@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
       </Head>
       <header className="">
       <>
-      <Disclosure as="nav" className="bg-transparant absolute top-0 z-50 w-full">
+      <Disclosure as="nav" className="bg-transparent absolute top-0 z-50 w-full">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -198,17 +198,10 @@ export default function Layout({ children, home }) {
       <main className='bg-gray-600'>{children}</main>
       <footer className="bg-[#e6d7d6] text-center pt-2 pb-6">
         <div>
-          <a className="text-black inline-flex" href="">
+          <a className="text-black inline-flex" href="https://www.github.com/Proper-Stevo">
             <p className="pl-2">Proper-Stevo &copy; 2023</p>
           </a>
         </div>
-
-        <a
-          className="text-black inline-flex hover:no-underline"
-          href="https://github.com/proper-stevo"
-        >
-          <p>designed by : Stevo</p>
-        </a>
       </footer>
     </div>
   )
