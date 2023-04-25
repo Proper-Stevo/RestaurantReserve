@@ -9,10 +9,10 @@ function socials() {
                 {siteTitle}
             </Head>
              
-        <div class="2xl:container 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
+        <div class="2xl:container 2xl:mx-auto md:py-32 lg:px-20 md:px-6 py-9 px-4">
             <div class="text-center">
-                <h2 class="font-semibold dark:text-white lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-gray-800 md:w-full w-9/12 mx-auto">Follow Us on Instagram</h2>
-                <p class="font-normal text-base leading-6 dark:text-black text-black mt-4 lg:w-5/12 md:w-9/12 mx-auto">Follow us on instagram @<span class="underline cursor-pointer">followuspleaseee</span> and tag us to get featured on our timeline</p>
+                <h2 class="font-semibold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-white md:w-full w-9/12 mx-auto">Social Media </h2>
+                <p class="font-normal text-base leading-6 text-white mt-4 lg:w-5/12 md:w-9/12 mx-auto">Follow us on instagram @<span class="underline cursor-pointer">proper_stevo</span> and tag us to get featured on our timeline</p>
             </div>
             <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
                 <div class="relative group">
