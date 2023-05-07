@@ -39,7 +39,7 @@ function Story() {
               </dl>
             </div>
           </div>
-          <img src="/images/tacos.jpg" alt="Product screenshot" class="w-[100%] rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-3 lg:-ml-0" />
+          <img src="/images/tacos.jpg" alt="Product screenshot" className="w-[100%] rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-3 lg:-ml-0" />
         </div>
       </div>
       </div>

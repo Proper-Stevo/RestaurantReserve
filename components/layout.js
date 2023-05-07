@@ -121,7 +121,7 @@ export default function Layout({ children, home }) {
                         <img
                           className="h-9 w-9 rounded-full"
                           src="/images/selfie.jpeg"
-                          alt=""
+                          alt="selfie"
                         />
                       </Menu.Button>
                     </div>
