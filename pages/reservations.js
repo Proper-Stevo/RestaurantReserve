@@ -13,7 +13,7 @@ function reservations() {
     const handleSubmit = async (e) => {
         e.preventDefault();
     
-        const response = await fetch('/api/api', {
+        const response = await fetch('/api/reservations', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -30,6 +30,7 @@ function reservations() {
         const data = await response.json();
         alert(`Reservation confirmed! Your reservation number is ${data.reservationNumber}.`);
       };
+
     
 
     return (
@@ -113,3 +114,4 @@ function reservations() {
 }
 
 export default reservations;
+
