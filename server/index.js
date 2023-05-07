@@ -1,3 +1,5 @@
+// server.js
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -7,7 +9,7 @@ require("dotenv").config();
 
 app.use(bodyParser.json());
 
-app.post('/api/reservations', async (req, res) => {
+app.post('/api/api', async (req, res) => {
   const { guests, names, date, time, email } = req.body;
 
   // Generate a random reservation number
@@ -23,7 +25,7 @@ app.post('/api/reservations', async (req, res) => {
   });
 
   const mailOptions = {
-    from: 'laresturaunt@gmail.com',
+    from: process.env.USER,
     to: email,
     subject: 'Reservation Confirmation',
     html: `<p>Welcome to My Restaurant! 
@@ -38,3 +40,5 @@ app.post('/api/reservations', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
+
+module.exports = app;
