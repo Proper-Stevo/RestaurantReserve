@@ -31,8 +31,6 @@ function reservations() {
         alert(`Reservation confirmed! Your reservation number is ${data.reservationNumber}.`);
       };
 
-    
-
     return (
         <Layout>
             <Head>

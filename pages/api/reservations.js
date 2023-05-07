@@ -18,7 +18,7 @@ export default async function handler(req, res) {
 
             // try {
             const mailOptions = {
-                from: "laresturaunt@gmail.com",
+                from: "South Central With Love <laresturaunt@gmail.com>",
                 to: email,
                 subject: "Reservation Confirmation",
                 html: `Thank you ${names} for making a reservation for ${guests} guests on ${date} at ${time}. Your reservation number is ${Math.floor(Math.random() * 100000)}.`,

@@ -24,7 +24,7 @@ function MainMenu() {
                 <span className="px-4 py-2 rounded-l-md bg-gray-200 peer-checked:bg-blue-300">Entree</span>
                 <span className="px-4 py-2 rounded-r-md bg-blue-200 peer-checked:bg-gray-300">Drinks</span>
             </label>
-            <div className="grid grid-cols-3 gap-4 text-brown text-center py-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 text-brown text-center py-20">
                 {isFood ? (
                     foodMenu.map((m, index) => {
                         return (

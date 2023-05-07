@@ -21,7 +21,7 @@ function HappyHr() {
     return (
         <>
             <h1 className="text-center text-white pt-8 text-5xl">Happy Hour Section</h1>
-            <div className="grid grid-cols-3 gap-4 text-brown text-center py-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 text-brown text-center py-20">
                 {selectFood.map((k, index) => (
                     <div className="w-80 mt-24 m-auto lg:mt-16 max-w-sm" key={index}>
                         <img src={k.image} alt="happy hour food!" className="rounded-t-2xl shadow-2xl lg:w-full 2xl:w-full 2xl:h-44 object-cover" />
