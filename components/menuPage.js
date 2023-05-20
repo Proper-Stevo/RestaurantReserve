@@ -25,10 +25,13 @@ function MainMenu() {
                 <span className="px-4 py-2 rounded-r-md bg-blue-200 peer-checked:bg-gray-300">Drinks</span>
             </label>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 text-brown text-center py-20">
+                
                 {isFood ? (
                     foodMenu.map((m, index) => {
                         return (
-                            <div className="w-80 mt-24 m-auto lg:mt-16 max-w-sm" key={index}>
+                            <div className="flex">
+                                <div className="flex-1 h-full"> 
+                            <div className="h-full w-80 h-max mt-24 m-auto lg:mt-16 max-w-sm" key={index}>
                                 <img src={m.image} alt="User Images" className="rounded-t-2xl shadow-2xl lg:w-full 2xl:w-full 2xl:h-44 object-cover" />
                                 <div className="bg-white shadow-2xl rounded-b-3xl">
                                     <h2 className="text-center text-gray-800 text-2xl font-bold pt-6">{m.title}</h2>
@@ -36,6 +39,8 @@ function MainMenu() {
                                         <p className="text-center text-gray-500 pt-5 pb-4">{m.description}</p>
                                     </div>
                                 </div>
+                            </div>
+                            </div>
                             </div>
                         )
                     })
