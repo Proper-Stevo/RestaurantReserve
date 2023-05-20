@@ -5,10 +5,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
+  { name: 'Home', href: '/', current: false},
   { name: 'Menu', href: '/menu', current: true },
   { name: 'About', href: '/about', current: false },
-  { name: 'Reservations', href: '/reservations', current: false },
-  { name: 'Socials', href: '/socials', current: false },
+  { name: 'Reservations', href: '/reservations', current: false }
 ]
 
 function classNames(...classes) {
@@ -208,7 +208,6 @@ export default function Layout({ children, home }) {
 
                 <a href="/reservations" class="mx-4 text-sm text-gray-200 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"> Reservations </a>
 
-                <a href="/socials" class="mx-4 text-sm text-gray-200 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"> Socials </a>
             </div>
         </div>
 

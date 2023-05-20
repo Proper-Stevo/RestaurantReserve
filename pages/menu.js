@@ -13,8 +13,8 @@ function menu() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <Parallax className="menuImg" bgImage="/images/steak.jpg" strength={900}>
-                <section className="pt-20">
+            <Parallax className="menuImg" bgImage="/images/wood.jpg" strength={800}>
+                <section className="pt-60">
                     <div className="relative py-20">
                         <div className="text-center text-9xl font-bold tracking-tight text-white sm:text-10xl">Menu Specials</div>
                     </div>

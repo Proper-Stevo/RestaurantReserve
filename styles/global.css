@@ -35,10 +35,16 @@ body {
 .menuImg {
   position: relative;
   background-position: top;
-  height: 150vh;
+  height: 100vh;
 }
 
 .oldF {
+  position: relative;
+  background-position: top;
+  height: 100vh;
+}
+
+.reserveIMG {
   position: relative;
   background-position: top;
   height: 100vh;

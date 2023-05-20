@@ -1,5 +1,4 @@
-
-
+const reservationNumber = Math.floor(Math.random() * 100000)// Generate a random reservation number
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
@@ -21,11 +20,10 @@ export default async function handler(req, res) {
                 from: "South Central With Love <laresturaunt@gmail.com>",
                 to: email,
                 subject: "Reservation Confirmation",
-                html: `Thank you ${names} for making a reservation for ${guests} guests on ${date} at ${time}. Your reservation number is ${Math.floor(Math.random() * 100000)}.`,
+                html: `Thank you ${names} for making a reservation for ${guests} guests on ${date} at ${time}. Your reservation number is ${reservationNumber}.`,
             }
 
             const info = await transporter.sendMail(mailOptions);
-            const reservationNumber = Math.floor(Math.random() * 100000); // Generate a random reservation number
             res.status(200).json({ reservationNumber }); // Return the reservation number to the client
 
             res.status(200).json({ message: "Reservation confirmed!" + info.response + reservationNumber});
