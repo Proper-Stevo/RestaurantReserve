@@ -44,6 +44,12 @@ body {
   height: 100vh;
 }
 
+.imageRes {
+  position: relative;
+  background-position: top;
+  height: 100vh;
+}
+
 .reserveIMG {
   position: relative;
   background-position: top;

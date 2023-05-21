@@ -28,20 +28,20 @@ function about() {
                                 <img src="/images/Assistant.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
 
-                                <p className="font-bold mb-2">Lisa Ferrol</p>
+                                <p className="font-bold mb-2">James Bond</p>
                                 <p className="text-white">Assitant Manager</p>
                             </div>
 
                             <div className="mb-12">
                                 <img src="/images/chef.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
-                                <p className="font-bold mb- 2">Maria Smith</p>
+                                <p className="font-bold mb- 2">John Smith</p>
                                 <p className="text-white">Excecutive Chef</p>
                             </div>
                             <div className="mb-12">
                                 <img src="/images/sousChef.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
-                                <p className="font-bold mb-2">Agatha Bevos</p>
+                                <p className="font-bold mb-2">Trevor Johnson</p>
                                 <p className="text-white">Sous Chef</p>
                             </div>
 
@@ -55,14 +55,14 @@ function about() {
                             <div className="mb-12">
                                 <img src="/images/kitchenManager.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
-                                <p className="font-bold mb-2">Soraya Letto</p>
+                                <p className="font-bold mb-2">Sam Letto</p>
                                 <p className="text-white">Kitchen Manager</p>
                             </div>
 
                             <div className="mb-12">
                                 <img src="/images/bartender.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
-                                <p className="font-bold mb-2">Maliha Welch</p>
+                                <p className="font-bold mb-2">Mathew Welch</p>
                                 <p className="text-white">Bartender</p>
                             </div>
 

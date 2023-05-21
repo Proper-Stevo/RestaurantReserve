@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import { Parallax } from "react-parallax";
 import Reserve from '../components/reservepage';
+import SecondReserve from '../components/reserve2';
 
 function reservations() {
     return (
@@ -16,8 +17,9 @@ function reservations() {
                         <div className='text-center text-9xl font-bold tracking-tight text-white sm:text-10xl'>Reservations</div>
                     </div>
                 </section>
-            </Parallax>
+            </Parallax>  
             <Reserve />
+           <SecondReserve />
         </Layout>
     )
 }
