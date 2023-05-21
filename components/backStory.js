@@ -18,7 +18,7 @@ function Story() {
                     Fresh Meats
                     <br />
                   </dt>
-                  <dd className="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                  <dd className="inline">Prepare your taste buds for a tantalizing taco adventure at this esteemed restaurant, where they take pride in their selection of fresh, flavorful, and ethically sourced meats, offering a diverse menu of expertly seasoned taco fillings that will leave you craving for more.</dd>
                 </div>
 
                 <div className="relative pl-9">
@@ -26,20 +26,12 @@ function Story() {
                     In House Made Tortillas.
                     <br />
                   </dt>
-                  <dd className="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</dd>
-                </div>
-
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    Fresh Garden Toppings.
-                    <br />
-                  </dt>
-                  <dd className="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</dd>
+                  <dd className="inline">Indulge in the authentic experience of handmade tortillas as this restaurant impresses with its dedication to crafting flavorful dishes, including tortillas made from scratch using traditional techniques, ensuring a warm and soft foundation for your culinary delight.</dd>
                 </div>
               </dl>
             </div>
           </div>
-          <img src="/images/tacos.jpg" alt="Product screenshot" className="w-[100%] rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-3 lg:-ml-0" />
+          <img src="/images/tacos.jpg" alt="Product screenshot" className="w-[100%] my-auto rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-3 lg:-ml-0" />
         </div>
       </div>
       </div>

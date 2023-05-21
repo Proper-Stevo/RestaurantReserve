@@ -34,9 +34,11 @@ function Reserve() {
     return (
 
         <div className='py-32'>
+            <div className="text-white text-4xl"><p className="text-center">Make you reservation today!</p> 
         <div className='flex-items-center justify-center p-12'>
             <div className='mx-auto w-full max-w-[550px]'>
                 <div className='mx-3 flex flex-wrap'>
+                    
                     <form onSubmit={handleSubmit}>
                         <div className='w-full px-3'>
                             <div className='mb-5'>
@@ -103,6 +105,7 @@ function Reserve() {
                 </div>
             </div>
         </div>
+    </div>
     </div>
     )
 }
