@@ -21,7 +21,7 @@ export default async function handler(req, res) {
                 from: "South Central With Love <laresturaunt@gmail.com>",
                 to: email,
                 subject: "Reservation Confirmation",
-                html: `<body>
+                html: `<body style="background-image: url('/images/borderblk.png');background-repeat: no-repeat;background-size: cover;">
                 <div style="margin: 200px;">
                 <h1 style="text-align: center;">Thanks ${names}!</h1>
                 <h3 style="text-align: center;">Your reservation for ${guests} guests on ${date} at ${time}.</h3>
