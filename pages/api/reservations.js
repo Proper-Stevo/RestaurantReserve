@@ -15,18 +15,33 @@ export default async function handler(req, res) {
                 },
             });
 
+
             // try {
             const mailOptions = {
                 from: "South Central With Love <laresturaunt@gmail.com>",
                 to: email,
                 subject: "Reservation Confirmation",
-                html: `Thank you ${names} for making a reservation for ${guests} guests on ${date} at ${time}. Your reservation number is ${reservationNumber}.`,
-            }
+                html: `<body>
+                <div style="margin: 200px;">
+                <h1 style="text-align: center;">Thanks ${names}!</h1>
+                <h3 style="text-align: center;">Your reservation for ${guests} guests on ${date} at ${time}.</h3>
+                <br />
+                <h3 style="text-align: center;">Your reservation number is ${reservationNumber}.</h3>
+                <br />
+                <h1 style="text-align: center;">South Central, With Love</h1>
+                <h4 style="text-align: center;">Look forward to seeing you soon!!</h4>
+                <center>
+                <img src="https://www.canva.com/design/DAFjlyxUDV0/5AJFSpcb6jJPf2KqpwaV8Q/view?utm_content=DAFjlyxUDV0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" alt="Restuaraunt" width="400px" height="400px" class="center" />
+                </center>
+                </div>
+                </body>`,
+            };
+
 
             const info = await transporter.sendMail(mailOptions);
             res.status(200).json({ reservationNumber }); // Return the reservation number to the client
 
-            res.status(200).json({ message: "Reservation confirmed!" + info.response + reservationNumber});
+            res.status(200).json({ message: "Reservation confirmed!" + info.response + reservationNumber });
         } catch (error) {
             console.error(error);
             res.status(500).json({ message: "Something went wrong." });
