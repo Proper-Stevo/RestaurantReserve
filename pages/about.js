@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
+import Manager from "../public/images/manager.jpg";
 
 function about() {
     return (
@@ -17,7 +18,7 @@ function about() {
 
                         <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12 py-10">
                             <div className="mb-12">
-                                <img src="/images/manager.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+                                <img src={Manager} class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
 
                                 <p className="font-bold mb-2">John Doe</p>
