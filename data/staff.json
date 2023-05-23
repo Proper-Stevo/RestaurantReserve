@@ -1,0 +1,42 @@
+[
+    {
+        "title": "General Manager",
+        "name": "John Doe",
+        "image": "/images/manager.jpg"
+    },
+    {
+        "title": "Assistant Manager",
+        "name": "James Bond",
+        "image": "/images/Assistant.jpg" 
+    },
+    {
+        "title": "Executive Chef",
+        "name": "John Smith",
+        "image": "/images/chef.jpg"
+    },
+    {
+        "title": "Sous Chef",
+        "name": "Trevor Johnson",
+        "image": "/images/sousChef.jpg"
+    },
+    {
+        "title": "Pastry Chef",
+        "name": "Darren Randolph",
+        "image": "/images/pastryChef.jpg"
+    },
+    {
+        "title": "Kitchen Manager",
+        "name": "Sam Letto",
+        "image": "/images/kitchenManager.jpg"
+    },
+    {
+        "title": "Bartender",
+        "name": "Mathew Welch",
+        "image": "/images/bartender.jpg"
+    },
+    {
+        "title": "Line Cook",
+        "name": "Zeynep Dudley",
+        "image": "/images/lineCook.jpg"
+    }
+]
