@@ -17,7 +17,7 @@ function about() {
 
                         <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-x-6 lg:gap-xl-12 py-10">
                             <div className="mb-12">
-                                <img src="../../../../public/images/manager.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+                                <img src={"/images/manager.jpg"} class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
 
                                 <p className="font-bold mb-2">John Doe</p>
@@ -25,7 +25,7 @@ function about() {
                             </div>
 
                             <div className="mb-12">
-                                <img src="/images/Assistant.jpg" class="rounded-full mx-auto shadow-lg mb-4" alt=""
+                                <img src={"/images/Assistant.jpg"} class="rounded-full mx-auto shadow-lg mb-4" alt=""
                                 />
 
                                 <p className="font-bold mb-2">James Bond</p>
