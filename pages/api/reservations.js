@@ -1,10 +1,16 @@
 const reservationNumber = Math.floor(Math.random() * 100000)// Generate a random reservation number
 const nodemailer = require("nodemailer");
 require("dotenv").config();
+const fs = require("fs");
+const path = require("path");
+const { promisify } = require("util");
 
 export default async function handler(req, res) {
     if (req.method === "POST") {
         const { guests, names, date, time, email } = req.body;
+        const imagePath = path.join(__dirname, "../../../../public/images/borderblk.png"); // Replace with the actual path to your image file
+        const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png")
+        const readFileAsync = promisify(fs.readFile);
 
         try {
             const transporter = nodemailer.createTransport({
@@ -21,7 +27,7 @@ export default async function handler(req, res) {
                 from: "South Central With Love <laresturaunt@gmail.com>",
                 to: email,
                 subject: "Reservation Confirmation",
-                html: `<body style="background-image: url('/images/borderblk.png');background-repeat: no-repeat;background-size: cover;">
+                html: `<body style="background-image: url('cid:borderblk');background-repeat: no-repeat;background-size: cover;">
                 <div style="margin: 200px;">
                 <h1 style="text-align: center;">Thanks ${names}!</h1>
                 <h3 style="text-align: center;">Your reservation for ${guests} guests on ${date} at ${time}.</h3>
@@ -31,17 +37,31 @@ export default async function handler(req, res) {
                 <h1 style="text-align: center;">South Central, With Love</h1>
                 <h4 style="text-align: center;">Look forward to seeing you soon!!</h4>
                 <center>
-                <img src="https://www.canva.com/design/DAFjlyxUDV0/5AJFSpcb6jJPf2KqpwaV8Q/view?utm_content=DAFjlyxUDV0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" alt="Restuaraunt" width="400px" height="400px" class="center" />
+                <img src="cid:ResFont" alt="Restuaraunt" width="400px" height="400px" class="center" />
                 </center>
                 </div>
                 </body>`,
+                attachments: [
+                    {
+                        filename: "borderblk.png", // Replace with the filename you want to use for the background image
+                        path: imagePath,
+                        cid: "borderblk", // CID reference for the background image
+                        contentDisposition: "inline",
+                        contentType: "image/png",
+                    },
+                    {
+                        filename: "ResFont.png", // Replace with the filename you want to use for the restaurant image
+                        path: resFrontPath,
+                        cid: "ResFont", // CID reference for the restaurant image
+                        contentDisposition: "inline",
+                        contentType: "image/png",
+                    },
+                ],
             };
 
 
             const info = await transporter.sendMail(mailOptions);
             res.status(200).json({ reservationNumber }); // Return the reservation number to the client
-
-            res.status(200).json({ message: "Reservation confirmed!" + info.response + reservationNumber });
         } catch (error) {
             console.error(error);
             res.status(500).json({ message: "Something went wrong." });
