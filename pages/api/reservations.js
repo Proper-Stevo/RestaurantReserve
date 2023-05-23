@@ -1,3 +1,5 @@
+import { env } from "process";
+
 const reservationNumber = Math.floor(Math.random() * 100000)// Generate a random reservation number
 const nodemailer = require("nodemailer");
 require("dotenv").config();
@@ -16,8 +18,8 @@ export default async function handler(req, res) {
             const transporter = nodemailer.createTransport({
                 service: "Gmail",
                 auth: {
-                    user: "laresturaunt@gmail.com",
-                    pass: "ftlrjatxfgexudgp",
+                    user: process.env.USER,
+                    pass: process.env.PASS,
                 },
             });
 
