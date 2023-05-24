@@ -1,3 +1,4 @@
+import { response } from "express";
 import { env } from "process";
 
 const reservationNumber = Math.floor(Math.random() * 100000)// Generate a random reservation number
@@ -64,6 +65,7 @@ export default async function handler(req, res) {
 
             const info = await transporter.sendMail(mailOptions);
             res.status(200).json({ reservationNumber }); // Return the reservation number to the client
+            res.status(200).json( response + reservationNumber)
         } catch (error) {
             console.error(error);
             res.status(500).json({ message: "Something went wrong." });
