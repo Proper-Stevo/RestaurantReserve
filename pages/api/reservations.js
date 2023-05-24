@@ -7,7 +7,7 @@ const path = require("path");
 export default async function handler(req, res) {
   if (req.method === "POST") {
     const { guests, names, date, time, email } = req.body;
-    const imagePath = path.join(__dirname, "../../../../public/images/borderblk.png");
+    const imagePath = path.join(__dirname, "/public/images/borderblk.png");
     const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png");
 
     try {
