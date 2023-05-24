@@ -12,6 +12,7 @@ export default async function handler(req, res) {
     const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png");
     const readFileAsync = promisify(fs.readFile);
 
+    
     try {
       const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
