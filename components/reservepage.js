@@ -12,7 +12,7 @@ function Reserve() {
     const handleSubmit = async (e) => {
         e.preventDefault();
     
-        const response = await fetch('../api/reservations', {
+        const response = await fetch('/api/reservations.js', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
