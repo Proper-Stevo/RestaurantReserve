@@ -1,20 +1,21 @@
 const reservationNumber = Math.floor(Math.random() * 100000)// Generate a random reservation number
 const nodemailer = require("nodemailer");
 require("dotenv").config();
-// const fs = require("fs");
-// const path = require("path");
-// const { promisify } = require("util");
+const fs = require("fs");
+const path = require("path");
+const { promisify } = require("util");
 
 export default async function handler(req, res) {
     if (req.method === "POST") {
         const { guests, names, date, time, email } = req.body;
-        // const imagePath = path.join(__dirname, "../../../../public/images/borderblk.png"); // Replace with the actual path to your image file
-        // const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png")
-        // const readFileAsync = promisify(fs.readFile);
+        const imagePath = path.join(__dirname, "../../../../public/images/borderblk.png"); // Replace with the actual path to your image file
+        const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png")
+        const readFileAsync = promisify(fs.readFile);
+
 
         try {
             const transporter = nodemailer.createTransport({
-                service: "Gmail",
+                service: "gmail",
                 auth: {
                     user: process.env.USER,
                     pass: process.env.PASS,
@@ -41,22 +42,22 @@ export default async function handler(req, res) {
                 </center>
                 </div>
                 </body>`,
-                // attachments: [
-                //     {
-                //         filename: "borderblk.png", // Replace with the filename you want to use for the background image
-                //         path: imagePath,
-                //         cid: "borderblk", // CID reference for the background image
-                //         contentDisposition: "inline",
-                //         contentType: "image/png",
-                //     },
-                //     {
-                //         filename: "ResFont.png", // Replace with the filename you want to use for the restaurant image
-                //         path: resFrontPath,
-                //         cid: "ResFont", // CID reference for the restaurant image
-                //         contentDisposition: "inline",
-                //         contentType: "image/png",
-                //     },
-                // ],
+                attachments: [
+                    {
+                        filename: "borderblk.png", // Replace with the filename you want to use for the background image
+                        path: imagePath,
+                        cid: "borderblk", // CID reference for the background image
+                        contentDisposition: "inline",
+                        contentType: "image/png",
+                    },
+                    {
+                        filename: "ResFont.png", // Replace with the filename you want to use for the restaurant image
+                        path: resFrontPath,
+                        cid: "ResFont", // CID reference for the restaurant image
+                        contentDisposition: "inline",
+                        contentType: "image/png",
+                    },
+                ],
             };
 
 
