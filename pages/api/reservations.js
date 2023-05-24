@@ -3,16 +3,13 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
-const { promisify } = require("util");
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
     const { guests, names, date, time, email } = req.body;
     const imagePath = path.join(__dirname, "../../../../public/images/borderblk.png");
     const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png");
-    const readFileAsync = promisify(fs.readFile);
 
-    
     try {
       const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
@@ -24,7 +21,7 @@ export default async function handler(req, res) {
         },
       });
 
-      const mailOptions = {
+      await transporter.sendMail({
         from: "South Central With Love <laresturaunt@gmail.com>",
         to: email,
         subject: "Reservation Confirmation",
@@ -38,7 +35,7 @@ export default async function handler(req, res) {
             <h1 style="text-align: center;">South Central, With Love</h1>
             <h4 style="text-align: center;">Look forward to seeing you soon!!</h4>
             <center>
-              <img src="cid:ResFont" alt="Restuaraunt" width="400px" height="400px" class="center" />
+              <img src="cid:ResFont" alt="Restaurant" width="400px" height="400px" class="center" />
             </center>
           </div>
         </body>`,
@@ -58,15 +55,14 @@ export default async function handler(req, res) {
             contentType: "image/png",
           },
         ],
-      };
+      });
 
-      const info = await transporter.sendMail(mailOptions);
-      res.status(200).json({ reservationNumber });
+      return res.status(200).json({ reservationNumber });
     } catch (error) {
       console.error(error);
-      res.status(500).json({ message: "Something went wrong." });
+      return res.status(500).json({ error: "Something went wrong." });
     }
   } else {
-    res.status(405).json({ message: "Method not allowed" });
+    return res.status(405).json({ message: "Method not allowed" });
   }
 }
