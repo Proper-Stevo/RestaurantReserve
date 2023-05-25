@@ -1,15 +1,15 @@
 import nodemailer from "nodemailer";
-// import dotenv from "dotenv";
+import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
 
-// dotenv.config();
+dotenv.config();
 
 export default async function(req, res) {
   const { guests, names, date, time, email } = req.body;
   const reservationNumber = Math.floor(Math.random() * 100000);
-  const imagePath = path.join(__dirname, "/public/images/borderblk.png");
-  const resFrontPath = path.join(__dirname, "/public/images/ResFront.png");
+//   const imagePath = path.join(__dirname, "/public/images/borderblk.png");
+//   const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png");
 
   try {
   const transporter = nodemailer.createTransport({
@@ -17,8 +17,8 @@ export default async function(req, res) {
     port: 465,
     secure: true,
     auth: {
-      user: "laresturaunt@gmail.com",
-      pass: "ftlrjatxfgexudgp",
+      user: process.env.USER,
+      pass: process.env.PASS,
     },
   });
 
@@ -41,22 +41,22 @@ export default async function(req, res) {
             </center>
           </div>
         </body>`,
-    attachments: [
-      {
-        filename: "borderblk.png",
-        path: imagePath,
-        cid: "borderblk",
-        contentDisposition: "inline",
-        contentType: "image/png",
-      },
-      {
-        filename: "ResFont.png",
-        path: resFrontPath,
-        cid: "ResFont",
-        contentDisposition: "inline",
-        contentType: "image/png",
-      },
-    ],
+    // attachments: [
+    //   {
+    //     filename: "borderblk.png",
+    //     path: imagePath,
+    //     cid: "borderblk",
+    //     contentDisposition: "inline",
+    //     contentType: "image/png",
+    //   },
+    //   {
+    //     filename: "ResFont.png",
+    //     path: resFrontPath,
+    //     cid: "ResFont",
+    //     contentDisposition: "inline",
+    //     contentType: "image/png",
+    //   },
+    // ],
   };
 
   
