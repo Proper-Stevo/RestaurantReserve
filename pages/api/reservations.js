@@ -1,38 +1,28 @@
 import nodemailer from "nodemailer";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
 
-dotenv.config();
+// dotenv.config();
 
-export default async function handler(req, res) {
+export default async function(req, res) {
   const { guests, names, date, time, email } = req.body;
   const reservationNumber = Math.floor(Math.random() * 100000);
   const imagePath = path.join(__dirname, "../../../../public/images/borderblk.png");
   const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png");
 
+  try {
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
     secure: true,
     auth: {
-      user: process.env.USER,
-      pass: process.env.PASS,
+      user: "laresturaunt@gmail.com",
+      pass: "ftlrjatxfgexudgp",
     },
   });
 
-  await new Promise((resolve, reject) => {
-    transporter.verify(function (error, success) {
-      if (error) {
-        console.log(error);
-        reject(error);
-      } else {
-        console.log("Server is ready to take our messages");
-        resolve(success);
-      }
-    });
-  });
-
+ 
   const sendMail = {
     from: "South Central With Love <laresturaunt@gmail.com>",
     to: email,
@@ -69,18 +59,12 @@ export default async function handler(req, res) {
     ],
   };
 
-  await new Promise((resolve, reject) => {
-    // send mail
-    transporter.sendMail(sendMail, (err, info) => {
-      if (err) {
-        console.error(err);
-        reject(err);
-      } else {
-        console.log(info);
-        resolve(info);
-      }
-    });
-  });
-
-  res.status(200).json({ reservationNumber });
-}
+  
+    
+    const info = await transporter.sendMail(sendMail);
+    console.log("email sent" + info.response);
+    res.status(200).json({ reservationNumber , success: true });
+} catch (error) {
+    console.error(error);
+    res.status(500).json({ success: false})
+}}
