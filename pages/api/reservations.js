@@ -8,8 +8,8 @@ import path from "path";
 export default async function(req, res) {
   const { guests, names, date, time, email } = req.body;
   const reservationNumber = Math.floor(Math.random() * 100000);
-//   const imagePath = path.join(__dirname, "../../../../public/images/borderblk.png");
-//   const resFrontPath = path.join(__dirname, "../../../../public/images/ResFront.png");
+  const imagePath = path.join(__dirname, "/public/images/borderblk.png");
+  const resFrontPath = path.join(__dirname, "/public/images/ResFront.png");
 
   try {
   const transporter = nodemailer.createTransport({
@@ -41,22 +41,22 @@ export default async function(req, res) {
             </center>
           </div>
         </body>`,
-    // attachments: [
-    //   {
-    //     filename: "borderblk.png",
-    //     path: imagePath,
-    //     cid: "borderblk",
-    //     contentDisposition: "inline",
-    //     contentType: "image/png",
-    //   },
-    //   {
-    //     filename: "ResFont.png",
-    //     path: resFrontPath,
-    //     cid: "ResFont",
-    //     contentDisposition: "inline",
-    //     contentType: "image/png",
-    //   },
-    // ],
+    attachments: [
+      {
+        filename: "borderblk.png",
+        path: imagePath,
+        cid: "borderblk",
+        contentDisposition: "inline",
+        contentType: "image/png",
+      },
+      {
+        filename: "ResFont.png",
+        path: resFrontPath,
+        cid: "ResFont",
+        contentDisposition: "inline",
+        contentType: "image/png",
+      },
+    ],
   };
 
   
