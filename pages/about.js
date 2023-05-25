@@ -9,7 +9,7 @@ function About({ staff }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className="container py-32 px-6 mx-auto">
+      <div className="container pt-32 px-6 mx-auto ">
         <div className="text-gray-800 text-center">
           <h2 className="text-6xl font-bold mb-12 text-white">Meet the team</h2>
           <p className="text-xl text-white">

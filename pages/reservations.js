@@ -11,10 +11,10 @@ function reservations() {
             <Head>
                 {siteTitle}
              </Head>
-            <Parallax className='reserveIMG' bgImage='/images/resereved.jpeg' strength={500}>
+            <Parallax className='reserveIMG' bgImage='/images/resereved.jpeg' strength={600}>
                 <section className='pt-60'>
                     <div className='relative py-20'>
-                        <div className='text-center text-9xl font-bold tracking-tight text-white sm:text-10xl'>Reservations</div>
+                        <div className='text-center text-5xl font-bold tracking-tight text-white sm:text-6xl md:text-9xl lg:text-10xl'>Reservations</div>
                     </div>
                 </section>
             </Parallax>  

@@ -61,3 +61,22 @@ body {
     height: 210vh;
   }
 }
+
+
+@media only screen and (min-width:200px) and (max-width:844px) {
+  .bgImage {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width:200px) and (max-width:844px) {
+  .bgImage2 {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width:200px) and (max-width:844px) {
+  .imageRes {
+    height: 100vh;
+  }
+}

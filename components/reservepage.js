@@ -26,7 +26,7 @@ function Reserve() {
           }),
         });
         
-        // const data = await response.json();
+        
         if (response.ok) {
         const data = await response.json();
         console.log(data)

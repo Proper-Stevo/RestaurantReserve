@@ -13,10 +13,10 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <Parallax className='bgImage' bgImage="/images/FrontRes.jpg" strength={900}>
-        <div className="relative mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="relative hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="fixed text-center text-9xl font-bold tracking-tight text-white sm:text-10xl">South Central,<br /> With Love.
-              <p className="mt-6 text-2xl leading-8 text-white tracking-normal">Los Angeles Cuisine, from the heart of California.</p>
+        <div className="relative mx-auto max-w-2xl pt-32 pb-48 sm:py-48 lg:py-56">
+          <div className="relative sm:mb-8 sm:flex sm:justify-center">
+              <div className="fixed text-center text-6xl font-bold tracking-tight text-white sm:text-6xl md:text-7xl lg:text-9xl">South Central,<br /> With Love.
+              <p className="mt-6 text-2xl leading-8 text-white tracking-normal  ">Los Angeles Cuisine, from the heart of California.</p>
               </div>
           </div>
         </div>
