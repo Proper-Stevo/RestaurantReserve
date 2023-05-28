@@ -41,7 +41,7 @@ body {
 .oldF {
   position: relative;
   background-position: top;
-  height: 100vh;
+  height: 200vh;
 }
 
 .imageRes {
@@ -77,6 +77,12 @@ body {
 
 @media only screen and (min-width:200px) and (max-width:844px) {
   .imageRes {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width:200px) and (max-width:500px) {
+  .oldF {
     height: 100vh;
   }
 }

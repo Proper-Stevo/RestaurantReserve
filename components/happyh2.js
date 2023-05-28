@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 function NextSection() {
     return (
         <>
-            <Parallax bgImage="/images/oldfashioned.jpg" className="oldF" />
+            <Parallax bgImage="/images/cheers.jpg" className="oldF" strength={900}/>
         </>
     )
 }
