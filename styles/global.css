@@ -41,7 +41,7 @@ body {
 .oldF {
   position: relative;
   background-position: top;
-  height: 100vh;
+  height: 200vh;
 }
 
 .imageRes {
@@ -81,78 +81,8 @@ body {
   }
 }
 
-@media only screen and (min-width:480px) {
-  .bgImage {
-    /* background-image: url('/RestaurantReserve/public/images/FrontRes.jpg');
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-attachment: scroll;
-  }
-  .bgImage2 {
-    background-image: url();
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .bgImage3 {
-    background-image: url();
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .tacos4 {
-    background-image: url();
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .tacosBG {
-    background-image: url();
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .menuImg {
-    background-image: url();
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+@media only screen and (min-width:200px) and (max-width:500px) {
   .oldF {
-    background-image: url();
     height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .reserveIMG {
-    background-image: url();
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .imageRes {
-    background-image: url();
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
