@@ -56,6 +56,14 @@ body {
   height: 100vh;
 }
 
+#home {
+  background-image: url("../public/images/FrontRes.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 @media only screen and (min-width:200px) and (max-width:1481px) {
   .bgImage {
     height: 210vh;

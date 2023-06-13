@@ -5,7 +5,7 @@ function Info() {
     return (
         <>
             <Parallax className="tacosBG" bgImage="/images/tacos.png">
-                <div className="grid grid-cols-3 gap-4 text-brown text-center py-20">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-brown text-center py-20">
                 <div>
                     <br />
                 <img className="mx-auto" src="/images/addy.png" />
@@ -32,7 +32,7 @@ function Info() {
                 <img className="mx-auto" src="/images/contact.png" />
                 <b>Contact:</b>
                  <br />
-                    Email: Steven.barrios92@gmail.com <br /> 
+                    Email: Steven.barrios92@gmail.com<br /> 
                     Phone: 323.719.0378
                 </div>
                 </div>
