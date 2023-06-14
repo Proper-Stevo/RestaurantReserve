@@ -15,14 +15,7 @@ body {
 * {
   box-sizing: border-box;
 }
-/* 
-.bgImage2 {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-} */
+
 .bgImage3 {
   position: relative;
   background-position: top;
@@ -35,17 +28,23 @@ body {
   position: relative;
   background-position: top;
   height: 100vh;
+  width: 100%;
+  background-image: url("../public/images/wood.jpg");
+  background-size: cover;
 }
 
 .oldF {
   position: relative;
   background-position: top;
   height: 200vh;
+  width: 100%;
 }
 
 .imageRes {
   position: relative;
   background-position: top;
+  background-size: cover;
+  width: 100%;
   height: 100vh;
 }
 
@@ -53,6 +52,8 @@ body {
   position: relative;
   background-position: top;
   height: 100vh;
+  background-image: url("../public/images/resereved.jpeg");
+  background-size: cover;
 }
 
 #home {

@@ -3,9 +3,9 @@ import { Parallax } from "react-parallax";
 
 function SecondReserve() {
     return (
-        <>
-            <Parallax className="imageRes" bgImage="/images/losAngeles.jpg" strength={900} />
-        </>
+        <div>
+            <img className="imageRes" src="/images/Angels.jpg" strength={900} />
+        </div>
     )
 }
 

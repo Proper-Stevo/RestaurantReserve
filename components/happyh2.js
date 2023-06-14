@@ -3,7 +3,7 @@ import React from "react";
 function NextSection() {
     return (
         <>
-            <img src="/images/cheers.jpg" className="oldF"/>
+            <img src="/images/newCheers.jpg" className="oldF"/>
         </>
     )
 }
