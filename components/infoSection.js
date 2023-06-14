@@ -33,7 +33,7 @@ function Info() {
                 <b>Contact:</b>
                  <br />
                     Email: Steven.barrios92@gmail.com<br /> 
-                    Phone: 323.719.0378
+                    Phone: 555.555.555
                 </div>
                 </div>
             </Parallax>
