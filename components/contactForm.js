@@ -4,8 +4,8 @@ import Link from "next/link"
 
 function Contact() {
   return (
-    <div>
-      <Parallax className='bgImage3' bgImage="/images/overview.jpg" strength={500}>
+    <div className="bgImage3">
+      {/* <img className='bgImage3' src="/images/overview.jpg" /> */}
         <div className="mx-auto max-w-2xl py-96">
           <div className="text-center">
             <div className="mt-auto flex items-center justify-center gap-x-6">
@@ -13,7 +13,6 @@ function Contact() {
             </div>
           </div>
         </div>
-      </Parallax >
     </div >
   )
 }
