@@ -19,7 +19,7 @@ export default async function (req, res) {
       },
     });
 
-    const imagePath = path.join(process.cwd(), "public/images/ResFront.png");
+    // const imagePath = path.join(process.cwd(), "public/images/ResFront.png");
 
     const sendMail = {
       from: "South Central With Love <southcentralwithlove@gmail.com>",
@@ -39,13 +39,13 @@ export default async function (req, res) {
           </div>
         </div>
       </body>`,
-      attachments: [
-        {
-          filename: "ResFront.png",
-          path: imagePath,
-          cid: "ResFront",
-        },
-      ],
+      // attachments: [
+      //   {
+      //     filename: "ResFront.png",
+      //     path: imagePath,
+      //     cid: "ResFront",
+      //   },
+      // ],
     };
 
     const info = await transporter.sendMail(sendMail);
