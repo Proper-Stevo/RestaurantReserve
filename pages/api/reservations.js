@@ -32,9 +32,9 @@ export default async function(req, res) {
             <br />
             <h1 style="text-align: center;">South Central, With Love</h1>
             <h4 style="text-align: center;">Look forward to seeing you soon!!</h4>
-            <di>
+            <center>
               <img src="cid:ResFront" alt="Restaurant" width="400px" height="400px" class="center" />
-            </di>
+            </center>
           </div>
         </body>`,
   };
