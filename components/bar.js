@@ -1,16 +1,10 @@
 import React from "react";
-import { Parallax } from 'react-parallax'; 
 
 function Bar() {
     return (
-        <>
-        <Parallax className='bgImage2' bgImage="/images/barSection.jpg" strength={900}>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          </div>
+        <div className="relative">
+        <img className='bgImage2 ' src="/images/barSection.jpg" />
         </div>
-        </Parallax>
-        </>
     )
 }
 

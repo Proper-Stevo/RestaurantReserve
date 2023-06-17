@@ -1,10 +1,9 @@
 import React from "react";
-import { Parallax } from "react-parallax";
 
 function NextSection() {
     return (
         <>
-            <Parallax bgImage="/images/cheers.jpg" className="oldF" strength={900}/>
+            <img src="/images/newCheers.jpg" className="oldF"/>
         </>
     )
 }

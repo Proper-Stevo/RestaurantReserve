@@ -16,43 +16,59 @@ body {
   box-sizing: border-box;
 }
 
-.bgImage {
-  position: relative;
-  background-position: top;
-  height: 262vh;
-}
-.bgImage2 {
-  position: relative;
-  background-position: top;
-  height: 197vh;
-}
 .bgImage3 {
   position: relative;
   background-position: top;
   height: 100vh;
+  width: 100%;
+  background-image: url("../public/images/overview.jpg");
 }
 
 .menuImg {
   position: relative;
   background-position: top;
   height: 100vh;
+  width: 100%;
+  background-image: url("../public/images/wood.jpg");
+  background-size: cover;
 }
 
 .oldF {
   position: relative;
   background-position: top;
   height: 200vh;
+  width: 100%;
 }
 
 .imageRes {
   position: relative;
   background-position: top;
+  background-size: cover;
+  width: 100%;
   height: 100vh;
 }
 
 .reserveIMG {
   position: relative;
   background-position: top;
+  height: 100vh;
+  background-image: url("../public/images/resereved.jpeg");
+  background-size: cover;
+}
+
+#home {
+  background-image: url("../public/images/FrontRes.jpg");
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#bgImage2 {
+  background-image: url("../public/images/barSection.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   height: 100vh;
 }
 
