@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
       </Head>
       <header className="">
         <>
-          <Disclosure as="nav" className="bg-gray-800 absolute top-0 z-50 w-full">
+          <Disclosure as="nav" className="bg-slate-800 bg-opacity-40 absolute top-0 z-50 w-full">
             {({ open }) => (
               <>
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -73,7 +73,7 @@ export default function Layout({ children, home }) {
                                 key={item.name}
                                 href={item.href}
                                 className={classNames(
-                                  'text-white hover:bg-gray-800 hover:text-white',
+                                  'text-white hover:bg-gray-500 hover:text-white',
                                   'rounded-md px-3 py-2 text-sm font-medium'
                                 )}
                                 aria-current={item.current ? 'page' : undefined}
@@ -91,7 +91,7 @@ export default function Layout({ children, home }) {
                             <img
                               className="block h-8 w-auto"
                               src="/images/nvbg.png"
-                              alt="Your Company"
+                              alt=""
                             /></a>
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
@@ -138,7 +138,7 @@ export default function Layout({ children, home }) {
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="https://stevenb-resume.herokuapp.com/"
+                                  href="https://stevenbarrios.vercel.app/"
                                   className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                 >
                                   My Profile
@@ -158,7 +158,7 @@ export default function Layout({ children, home }) {
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="https://drive.google.com/uc?export=download&id=1iV5j5P_et0GTuy0DrwxBGn44veV339_i"
+                                  href="https://drive.google.com/uc?export=download&id=1cuRIIr2uHdziiqqIMRjT_HAOHAe6wgzP"
                                   className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                 >
                                   Resume

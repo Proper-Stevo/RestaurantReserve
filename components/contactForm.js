@@ -5,14 +5,25 @@ import Link from "next/link"
 function Contact() {
   return (
     <div className="bgImage3">
-      {/* <img className='bgImage3' src="/images/overview.jpg" /> */}
-        <div className="mx-auto max-w-2xl py-96">
-          <div className="text-center">
-            <div className="mt-auto flex items-center justify-center gap-x-6">
-              <Link href="/menu" className="rounded-md bg-gray-200 px-3.5 py-2.5 text-sm font-bold text-yellow shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Menu Page</Link>
-            </div>
+      <div className="mx-auto max-w-2xl py-96">
+        <div className="text-center">
+          <div className="mt-auto flex items-center justify-center gap-x-6">
+            <Link href="/menu" className="flex items-center rounded-md bg-white font-semibold py-3 px-4 hover:bg-blue-400 hover:text-white">Menu Page
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="2em"
+                width="2em"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4 8a.5.5 0 01.5-.5h5.793L8.146 5.354a.5.5 0 11.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 014 8z"
+                />
+              </svg>
+            </Link>
           </div>
         </div>
+      </div>
     </div >
   )
 }
