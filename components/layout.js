@@ -158,7 +158,7 @@ export default function Layout({ children, home }) {
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="https://drive.google.com/uc?export=download&id=1cuRIIr2uHdziiqqIMRjT_HAOHAe6wgzP"
+                                  href="https://drive.google.com/uc?export=download&id=1tiyf-wtxV3gH1Fq5BNP11bVZmw2Y7qEC"
                                   className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                                 >
                                   Resume
