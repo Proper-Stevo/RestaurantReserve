@@ -32,8 +32,8 @@ function Info() {
                 <img className="mx-auto" src="/images/contact.png" />
                 <b>Contact:</b>
                  <br />
-                    Email: Steven.barrios92@gmail.com<br /> 
-                    Phone: 555.555.555
+                    Email: <a href="mailto:Steven.barrios92@gmail.com" className="text-blue-700">Steven.barrios92@gmail.com</a><br /> 
+                    Phone: (555)555-5555
                 </div>
                 </div>
             </Parallax>
